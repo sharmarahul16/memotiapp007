@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "246607659240",
+    "project_id": "memoti",
+    "storage_bucket": "memoti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246607659240:android:a41a5d9697e2bb61d3895d",
+        "android_client_info": {
+          "package_name": "com.memoticom.memoticom_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246607659240-bs04aevucbfoi492mvl970a549b6hria.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.memoticom.memoticom_demo",
+            "certificate_hash": "7769a588435422e518cedd6656971b1c6694d76c"
+          }
+        },
+        {
+          "client_id": "246607659240-iu6a1gjs229ba8o4kmch5if2h2pjjts9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.memoticom.memoticom_demo",
+            "certificate_hash": "3584ec2269fcec0704b838f2520d2c314e43fec2"
+          }
+        },
+        {
+          "client_id": "246607659240-ob0iju9fluaneo6uqgqm3plphqg89kl2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.memoticom.memoticom_demo",
+            "certificate_hash": "6b38919b0ca66e6fee2e2e4658ace0e5c82f7e76"
+          }
+        },
+        {
+          "client_id": "246607659240-gu6sobbhadmc0716ct5j466sdc7vpp4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7glLoXCkKNUza7O5WWytMTwXvNxUc9tI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246607659240-gu6sobbhadmc0716ct5j466sdc7vpp4v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "246607659240-1mgu6afceadrkvk25eo7qf22cqfraelo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.memoticom.memoticomDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

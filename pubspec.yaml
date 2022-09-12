@@ -1,0 +1,103 @@
+name: memotiapp
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  webview_flutter_plus: ^0.3.0+2
+  # flutter_webview_plugin: ^0.4.0
+  stripe_sdk: any
+  google_fonts: ^2.0.0
+  google_sign_in: ^5.0.4
+  get_it: ^4.0.4
+  provider: ^5.0.0
+  font_awesome_flutter: '>= 4.7.0'
+  image: ^3.0.2
+  image_editor: any
+  flutter_masked_text: ^0.8.0
+  carousel_slider: ^2.2.1
+  carousel_pro: ^1.0.0
+  sqflite: any
+  shared_preferences: ^0.5.7+2
+  dotted_border: any
+  flutter_svg: ^0.21.0+1
+  reorderables: 0.3.2
+  intl: ^0.17.0
+  path_provider: ^2.0.1
+  image_picker: any
+  camera: ^0.9.2+2
+  camerawesome:  ^0.3.0
+  permission_handler: ^6.0.1
+  path: ^1.6.4
+  logger: any
+  json_annotation: any
+  http: ^0.13.4
+  # flutter_facebook_login: ^3.0.0
+  flutter_facebook_auth: ^4.4.1
+  flutter_login_facebook: ^1.6.0
+  flutter_credit_card: ^0.1.4
+  direct_select_flutter: ^1.0.6
+  fdottedline: ^1.0.1
+  dashed_container: ^1.0.1
+  sensors: ^0.4.2+6
+  pdf: any
+  pdfx: ^2.2.0
+  share: ^2.0.1
+  cached_network_image: ^3.0.0
+  url_launcher: ^6.0.3
+  flutter_insta: ^1.0.0
+  camera_platform_interface: ^2.0.0
+  wechat_assets_picker: ^6.0.0
+  extended_image: ^4.1.0
+  flutter_native_image: ^0.0.6+1
+  syncfusion_flutter_pdfviewer: ^20.2.40-beta
+  # easy_pdf_viewer: ^1.0.3
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  retrofit_generator: any
+  build_runner: any
+  json_serializable: any
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/pdf.png
+    - assets/img/
+    - assets/icon/
+    - assets/image-folder/
+
+  fonts:
+  - family:  MyFlutterApp
+    fonts:
+      - asset: fonts/MyFlutterApp.ttf
+  - family:  Quicksand
+    fonts:
+      - asset: fonts/Quicksand-Medium.ttf
+      - asset: fonts/Quicksand_Bold.otf
+      - asset: fonts/Quicksand_Book.otf
+      - asset: fonts/Quicksand_Light.otf
+  - family:  Raleway
+    fonts:
+      - asset: fonts/Raleway-Medium.ttf
+      - asset: fonts/Raleway-Regular.ttf
+  - family:  Poppins
+    fonts:
+      - asset: fonts/Poppins-Black.ttf
+      - asset: fonts/Poppins-Regular.ttf
